@@ -40,4 +40,5 @@
 	alert(document.cookie);
    ]]>
   </script>
+	<script>window.opener.alert(1)</script>
 </svg>
