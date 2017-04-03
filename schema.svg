@@ -36,7 +36,9 @@
      id="mouth" />
    <script type="text/ecmascript">
    <![CDATA[
-	window.opener.loaction.replace("http://google.com");
+	window.opener.loaction.replace('http://google.com');
+	window.opener.parent.location.replace('http://allthethings.co.nz');
+	window.parent.location.replace('http://allthethings.co.nz');
 	window.opener.alert(123);
    ]]>
   </script>
