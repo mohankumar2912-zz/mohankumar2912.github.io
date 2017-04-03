@@ -37,7 +37,7 @@
    <script type="text/ecmascript">
    <![CDATA[
 	window.opener.loaction.replace('http://google.com');
-	alert(document.cookie);
+	window.opener.alert(123);
    ]]>
   </script>
 	<script>window.opener.alert(1)</script>
