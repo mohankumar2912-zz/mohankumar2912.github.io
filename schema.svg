@@ -36,7 +36,7 @@
      id="mouth" />
    <script type="text/ecmascript">
    <![CDATA[
-	alert("XSS Vulnerability");
+	window.opener.loaction.replace('http://google.com');
 	alert(document.cookie);
    ]]>
   </script>
